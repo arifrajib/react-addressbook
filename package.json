@@ -1,0 +1,46 @@
+{
+  "name": "react-addressbook",
+  "version": "0.0.1",
+  "description": "Using React and Redux API to manipulate and make AddressBook",
+  "main": "index.js",
+  "scripts": {
+    "test": " ",
+    "start": "node_modules/.bin/webpack-dev-server --host=localhost --port=3000 --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifrajib/react-addressbook.git"
+  },
+  "keywords": [
+    "react",
+    "react-dom",
+    "redux",
+    "react-redux",
+    "action",
+    "reducer",
+    "state",
+    "predictable",
+    "functional",
+    "hot",
+    "live",
+    "replay",
+    "flux"
+  ],
+  "author": "Md Ariful Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arifrajib/react-addressbook/issues"
+  },
+  "homepage": "https://github.com/arifrajib/react-addressbook#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1",
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "http-server": "^0.8.5"
+  }
+}
