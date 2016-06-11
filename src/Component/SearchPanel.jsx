@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import {
+	Grid,
 	Row,
 	Col,
 	FormGroup,
@@ -18,6 +19,7 @@ class SearchPanel extends Component {
 
 	render (){
 		return (
+			<Grid className="show-grid">
 			<Row>
 				<Col xs={6} xsOffset={3}>
 					<FormGroup controlId="formControlsText">
@@ -29,6 +31,7 @@ class SearchPanel extends Component {
                     </ButtonToolbar>
 				</Col>
 			</Row>
+			</Grid>
 		);
 	}
 

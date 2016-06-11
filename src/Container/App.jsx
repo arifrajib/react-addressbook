@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import SearchPanel from '../Component/SearchPanel'
+import SearchPanel from '../Component/SearchPanel';
+import ContactPanel from '../Component/ContactPanel';
 import {
-	PageHeader
+	PageHeader,
+	Grid
 } from 'react-bootstrap';
 
 class App extends Component {
@@ -17,7 +19,10 @@ class App extends Component {
 				<PageHeader>
 					React AddressBook
 				</PageHeader>
+			
 				<SearchPanel showModal={this.showModal} />
+				<ContactPanel />
+				
 			</div>
 		);
 	}
