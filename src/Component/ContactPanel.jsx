@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import Refactor from './Refactor';
 import {
 	Grid,
 	Row,
 	Col,
 	ListGroup,
-	ListGroupItem,
-	Refactor
+	ListGroupItem
 } from 'react-bootstrap';
 
 const style = {
@@ -27,7 +27,7 @@ class ContactPanel extends Component {
                 			<br/>
                 			<small>7532</small>
                 			<br/>
-
+                			<Refactor Index={1} Contact={7532} />
                 		</ListGroupItem>
                 	</ListGroup>
             	</Col>
